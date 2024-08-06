@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUNDAM User Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        h1, h2, h3, h4 {
+            color: #343a40;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .subsection {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>GUNDAM User Guide</h1>
+
+    <div class="section" id="introduction">
+        <h2>Introduction</h2>
+        <div class="subsection" id="overview">
+            <h3>Overview of the Software</h3>
+            <p>GUNDAM is a comprehensive software suite designed for efficient data analysis and processing in high-energy physics experiments. It provides a robust set of tools and applications to facilitate various analytical tasks.</p>
+        </div>
+        <div class="subsection" id="version-info">
+            <h3>Version Information</h3>
+            <p>Current Version: 1.0.0</p>
+        </div>
+    </div>
+
+    <div class="section" id="getting-started">
+        <h2>Getting Started</h2>
+        <div class="subsection" id="system-requirements">
+            <h3>System Requirements</h3>
+            <p>Ensure your system meets the following requirements:</p>
+            <ul>
+                <li>Operating System: Windows, macOS, or Linux</li>
+                <li>Memory: 8GB RAM minimum</li>
+                <li>Disk Space: 500MB minimum</li>
+                <li>Dependencies: Python 3.8+, C++11</li>
+            </ul>
+        </div>
+        <div class="subsection" id="installation-instructions">
+            <h3>Installation Instructions</h3>
+            <div class="subsection" id="general-installation">
+                <h4>General Installation</h4>
+                <div class="subsection" id="step-by-step-guide">
+                    <h4>Step-by-step Guide:</h4>
+                    <div class="subsection" id="shell-setup">
+                        <h5>Shell Setup</h5>
+                        <p>Open your terminal and configure your shell environment:</p>
+                        <pre><code>export GUNDAM_HOME=/path/to/gundam</code></pre>
+                    </div>
+                    <div class="subsection" id="cloning-source-code">
+                        <h5>Cloning the Source Code</h5>
+                        <p>Clone the GUNDAM repository from GitHub:</p>
+                        <pre><code>git clone https://github.com/example/gundam.git</code></pre>
+                    </div>
+                    <div class="subsection" id="installation">
+                        <h5>Installation</h5>
+                        <p>Run the following commands to install:</p>
+                        <pre><code>cd gundam
+make install</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="subsection" id="specific-computing-clusters">
+                <h4>For Specific Computing Clusters</h4>
+                <ul>
+                    <li><a href="#compiling-macos">Compiling on macOS</a></li>
+                    <li><a href="#compiling-ccl">Compiling on CCLyon</a></li>
+                    <li><a href="#compiling-hpc-geneva">Compiling on HPC Geneva</a></li>
+                    <li><a href="#compiling-hpc-seawulf">Compiling on HPC Seawulf</a></li>
+                    <li><a href="#compiling-lxplus">Compiling on LXPLUS</a></li>
+                    <li><a href="#compiling-cedar">Compiling on Cedar</a></li>
+                    <li><a href="#alternative-installation">Alternative Installation Procedure</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="subsection" id="errors-warnings">
+            <h3>Errors and Warnings</h3>
+            <p>Refer to this section for handling common errors and warnings during installation.</p>
+        </div>
+    </div>
+
+    <div class="section" id="using-software">
+        <h2>Using the Software</h2>
+        <div class="subsection" id="applications">
+            <h3>Descriptions of Different GUNDAM Applications</h3>
+            <div class="subsection" id="gundam-fitter">
+                <h4>gundamFitter</h4>
+                <div class="subsection" id="inputs">
+                    <h5>Description of the Inputs</h5>
+                    <p>gundamFitter accepts the following inputs:</p>
+                    <ul>
+                        <li>Data files in CSV format</li>
+                        <li>Configuration files in JSON format</li>
+                    </ul>
+                </div>
+                <div class="subsection" id="step-by-step">
+                    <h5>Step-by-step Guides</h5>
+                    <p>Follow these steps to run gundamFitter:</p>
+                    <ol>
+                        <li>Prepare your data files</li>
+                        <li>Configure the settings</li>
+                        <li>Execute the application</li>
+                    </ol>
+                </div>
+                <div class="subsection" id="run-example">
+                    <h5>Run an Example</h5>
+                    <p>Use the example dataset to test gundamFitter:</p>
+                    <pre><code>gundamFitter --config example_config.json --data example_data.csv</code></pre>
+                </div>
+                <div class="subsection" id="tips-tricks">
+                    <h5>Tips and Tricks</h5>
+                    <ul>
+                        <li>Optimize data preprocessing for better performance</li>
+                        <li>Utilize multi-threading for faster computations</li>
+                    </ul>
+                </div>
+                <div class="subsection" id="advanced-features">
+                    <h5>Advanced Features</h5>
+                    <p>Explore advanced functionalities such as custom algorithms and parallel processing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="for-developers">
+        <h2>For Developers</h2>
+        <div class="subsection" id="development-policy">
+            <h3>Development Policy</h3>
+            <div class="subsection" id="editing-code">
+                <h4>Editing the Code</h4>
+                <p>Developers are encouraged to adhere to coding standards and document their changes.</p>
+            </div>
+            <div class="subsection" id="merging-repository">
+                <h4>Merging to the Official Repository</h4>
+                <p>Follow the official guidelines for merging code to the main repository.</p>
+            </div>
+        </div>
+        <div class="subsection" id="license-rights">
+            <h3>License and Rights</h3>
+            <p>GUNDAM is licensed under the MIT License. Refer to the LICENSE file for more details.</p>
+        </div>
+    </div>
+
+    <div class="section" id="troubleshooting">
+        <h2>Troubleshooting</h2>
+        <div class="subsection" id="common-issues">
+            <h3>Common Issues and Solutions</h3>
+            <p>Find solutions to common issues encountered during the use of GUNDAM.</p>
+        </div>
+        <div class="subsection" id="error-messages">
+            <h3>Error Messages and Resolutions</h3>
+            <p>Understand and resolve error messages that may appear during operations.</p>
+        </div>
+    </div>
+
+    <div class="section" id="faqs">
+        <h2>FAQs</h2>
+        <div class="subsection" id="common-questions">
+            <h3>Answers to Common Questions</h3>
+            <ul>
+                <li>What is the purpose of GUNDAM?</li>
+                <li>How can I contribute to the project?</li>
+                <li>Where can I find more examples?</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section" id="lineage-legacy">
+        <h2>Lineage and Legacy</h2>
+        <p>GUNDAM has evolved over the years, incorporating cutting-edge techniques and innovations in data analysis.</p>
+    </div>
+
+    <div class="section" id="appendix">
+        <h2>Appendix</h2>
+        <div class="subsection" id="contact-support">
+            <h3>Contact Information for Support</h3>
+            <p>If you need support, please contact us at <a href="mailto:support@example.com">support@example.com</a>.</p>
+        </div>
+    </div>
+
+</body>
+</html>

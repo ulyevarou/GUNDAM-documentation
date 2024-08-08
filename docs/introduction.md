@@ -18,3 +18,6 @@ various physics works, it allows to share optimizations
 and debugging for every project at once.
 
 ### Version information
+
+
+<a href="javascript:history.back()" class="btn">Back</a>

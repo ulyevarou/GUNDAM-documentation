@@ -7,11 +7,11 @@ title: GUNDAM
 
 This is a simple example of a GitHub Pages site using Jekyll and Markdown.
 
-- [Introduction](./another-page.html).
-- [Getting started](./another-page.html).
-- [Using the Software](./another-page.html).
-- [For developers](./another-page.html).
-- [Troubleshooting](./another-page.html).
-- [FAQs](./another-page.html).
-- [Lineage and Legacy](./another-page.html).
-- [Appendix](./another-page.html).
+- [Introduction](./introduction.md).
+- [Getting started](./GettingStarted.md).
+- [Using the Software](./usage.md).
+- [For developers](./forDevelopers.md).
+- [Troubleshooting](./troubleshooting.md).
+- [FAQs](./faq.md).
+- [Lineage and Legacy](./LineageandLegacy.md).
+- [Appendix](./appendix.md).

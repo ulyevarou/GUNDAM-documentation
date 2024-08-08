@@ -70,21 +70,48 @@ check out the latest tagged version by tapping:
 ./update.sh --latest
 ```
 
+Alternatively GUNDAM users can choos the branch
+
+```bash
+git branch master
+git pull origin selectedbranch
+git submodule sync
+git submodule update --init
+```
+
 Note that this command will also automatically check out the submodule
 included in the project. Therefore, in order to update your code when
 a new release is available, simply use the same command. Note that git versions 
 before 2.0 may have issues to checkout the correct submodules (see issue #429)
 
+### Building the code
 
-## Installation for specific computing clusters (lxplus, ccLyon etc.):
+```bash
+cd $BUILD_DIR/gundam
+cmake \
+-D CMAKE_INSTALL_PREFIX:PATH=$INSTALL_DIR/gundam \
+-D CMAKE_BUILD_TYPE=Release \
+$REPO_DIR/gundam/.
+make install -j$(nproc)
+```
 
-- Compiling on macOS
-- Compiling on CCLyon
-- Compiling on HPC Geneva
-- Compiling on HPC Seawulf
-- Compiling on LXPLUS
-- Compiling on Cedar
-- Compiling on NN SBU cluster
+### Add GUNDAM to the PATH
+
+```bash
+export PATH="$INSTALL_DIR/gundam/bin:$PATH";
+export LD_LIBRARY_PATH="$INSTALL_DIR/gundam/lib:$LD_LIBRARY_PATH";
+
+```
+
+## Installation for:
+
+- [Compiling on macOS ](https://github.com/gundam-organization/gundam/blob/main/resources/doc/guides/installOnMacOs.md)
+- [Compiling on CCLyon ](https://github.com/gundam-organization/gundam/blob/main/resources/doc/guides/installOnCCLyon.md)
+- [Compiling on HPC cluster (University of Geneva)](https://github.com/gundam-organization/gundam/blob/main/resources/doc/guides/installOnHpc.md)
+- [Compiling on HPC cluster (Stony Brook University)]
+- [Compiling on LXPLUS](https://github.com/gundam-organization/gundam/blob/main/resources/doc/guides/installOnLXPLUS.md)
+- Compiling on Cedar (Digital Research Alliance of Canada)
+- Compiling on NN SBU cluster (NN group of SBU)
 
 ## Alternative installation procedure
 

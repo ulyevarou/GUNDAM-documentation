@@ -6,8 +6,8 @@ title: GUNDAM — 風をあつめて
 # Welcome to GUNDAM User Guide
 
 - [Introduction](introduction.md).
-- [Getting started](GettingStarted.md).
-- [Using the Software](usage.md).
+- [How to install](GettingStarted.md).
+- [Run GUNDAM](usage.md).
 - [For developers](forDevelopers.md).
 - [Troubleshooting](troubleshooting.md).
 - [FAQs](faq.md).

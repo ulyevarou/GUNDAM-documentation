@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction 
-next_page: "/index.md"
+next_page: "https://ulyevarou.github.io/GUNDAM-documentation/GettingStarted.html"
 ---
 
 ## Introduction

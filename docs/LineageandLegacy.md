@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Lineage and Legacy
 ---
 

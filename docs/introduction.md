@@ -1,3 +1,8 @@
+---
+layout: default
+title: Introduction 
+---
+
 {% include custom-buttons.html %}
 
 ## Introduction

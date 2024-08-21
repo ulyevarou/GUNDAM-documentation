@@ -21,6 +21,7 @@
 .next-button {
   bottom: 20px;
   right: 120px; /* Adjust to avoid overlapping the top button */
+  display: none; /* Hidden initially */
 }
 
 .top-button {

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Introduction 
+next_page: "/index.md"
 ---
 
 ## Introduction

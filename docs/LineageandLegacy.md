@@ -1,3 +1,9 @@
+---
+layout: default
+title: Lineage and Legacy
+---
+
+
 GUNDAM was born as a fork of the *xsllhFitter* project which was developped and used by
 the cross-section working group of T2K. The original project can be found on *gitlab*:
 [https://gitlab.com/cuddandr/xsLLhFitter](https://gitlab.com/cuddandr/xsLLhFitter).

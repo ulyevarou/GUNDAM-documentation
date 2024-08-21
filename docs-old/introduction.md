@@ -1,3 +1,7 @@
+---
+title: About
+---
+
 ## Introduction
 
 ### Overview of the software

@@ -1,3 +1,5 @@
+layout: default
+
 ### Development policy
 
 

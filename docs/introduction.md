@@ -1,3 +1,6 @@
+layout: default
+
+
 ## Introduction
 
 ### Overview of the software

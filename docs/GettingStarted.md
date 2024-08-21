@@ -2,6 +2,8 @@
 title: Getting started
 ---
 
+{% include custom-buttons.html %}
+
 # Getting started
 
 ## Installation instructions

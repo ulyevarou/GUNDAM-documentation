@@ -2,7 +2,3 @@ title: GUNDAM user guide
 description: GUNDAM, standing for Generalized and Unified Neutrino Data Analysis Methods
 theme: jekyll-theme-cayman
 markdown: kramdown
-
-# Include custom styles
-assets:
-  - /assets/css/custom.css

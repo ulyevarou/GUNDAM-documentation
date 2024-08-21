@@ -1,6 +1,3 @@
-layout: default
-
-{% include custom-buttons.html %}
 ## Introduction
 
 ### Overview of the software
@@ -21,3 +18,46 @@ various physics works, it allows to share optimizations
 and debugging for every project at once.
 
 ### Version information
+
+
+
+<nav>
+<a href="javascript:void(0);" class="toggle-link" data-target="section1">Section 1</a>
+<a href="javascript:void(0);" class="toggle-link" data-target="section2">Section 2</a>
+<a href="javascript:void(0);" class="toggle-link" data-target="section3">Section 3</a>
+</nav>
+
+<div id="section1" class="hidden">
+## Section 1
+Content for section 1...
+</div>
+
+<div id="section2" class="hidden">
+## Section 2
+Content for section 2...
+</div>
+
+<div id="section3" class="hidden">
+## Section 3
+Content for section 3...
+</div>
+
+<a href="javascript:history.back()" class="btn">Back</a>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll('.toggle-link');
+  links.forEach(link => {
+    link.addEventListener('click', function() {
+      const targetId = this.getAttribute('data-target');
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.classList.toggle('hidden');
+      }
+    });
+  });
+});
+</script>
+
+
+<a href="javascript:history.back()" class="btn">Back</a>

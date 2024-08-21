@@ -1,3 +1,4 @@
+{% include custom-buttons.html %}
 ## Introduction
 
 ### Overview of the software

@@ -1,8 +1,6 @@
-/* Back button styles with arrow */
-.back-button {
+/* Common button styles (Cayman theme colors) */
+.back-button, .next-button, .top-button {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
   padding: 10px 15px;
   background-color: #157878; /* Cayman primary color */
   color: white;
@@ -14,39 +12,45 @@
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-.back-button::before {
-  content: "← "; /* Adding the left arrow before the text */
-  margin-right: 5px;
+/* Positioning the buttons */
+.back-button {
+  bottom: 20px;
+  left: 20px;
 }
 
-.back-button:hover {
-  background-color: #0d5959; /* Darker Cayman hover color */
-  border-color: #0d5959;
+.next-button {
+  bottom: 20px;
+  right: 120px; /* Adjust to avoid overlapping the top button */
 }
 
-/* Top button styles with arrow */
 .top-button {
-  display: none;
-  position: fixed;
+  display: none; /* Hidden until scroll event */
   bottom: 20px;
   right: 20px;
-  padding: 10px 15px;
-  background-color: #157878; /* Cayman primary color */
-  color: white;
-  border-radius: 3px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  cursor: pointer;
-  border: 1px solid transparent;
-  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-.top-button::before {
-  content: "↑ "; /* Adding the up arrow before the text */
+/* Adding arrows using ::before pseudo-element */
+
+/* Back button with left arrow */
+.back-button::before {
+  content: "← "; /* Left arrow */
   margin-right: 5px;
 }
 
-.top-button:hover {
-  background-color: #0d5959; /* Darker Cayman hover color */
+/* Next button with right arrow */
+.next-button::before {
+  content: "→ "; /* Right arrow */
+  margin-left: 5px;
+}
+
+/* Top button with up arrow */
+.top-button::before {
+  content: "↑ "; /* Up arrow */
+  margin-right: 5px;
+}
+
+/* Hover effects */
+.back-button:hover, .next-button:hover, .top-button:hover {
+  background-color: #0d5959; /* Darker hover color */
   border-color: #0d5959;
 }

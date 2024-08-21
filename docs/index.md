@@ -1,4 +1,5 @@
 ---
+layout: default
 title: GUNDAM — 風をあつめて 
 ---
 
@@ -10,4 +11,4 @@ title: GUNDAM — 風をあつめて
 - [For developers](forDevelopers.md)
 - [FAQs](faq.md)
 - [Lineage and Legacy](LineageandLegacy.md)
-- [Appendix](appendix.md)
+- [Appendix.](appendix.md)

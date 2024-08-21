@@ -3,8 +3,6 @@ layout: default
 title: Introduction 
 ---
 
-{% include custom_buttons.html %}
-
 ## Introduction
 
 ### Overview of the software

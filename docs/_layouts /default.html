@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | escape }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body>
-    <div class="content">
-      {{ content }}
-    </div>
-    
-    <!-- Add your buttons here -->
-    <a href="javascript:history.back()" class="back-button">Back</a>
-    <button onclick="scrollToTop()" class="top-button">Top</button>
-    
-    <script>
-      // Scroll to top function
-      function scrollToTop() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | escape }}</title>
+
+  <!-- Include Cayman theme's styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cayman/0.1.0/cayman.css">
+
+  <!-- Include your custom styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <!-- Add your custom buttons here -->
+  <a href="javascript:history.back()" class="back-button">Back</a>
+  <button onclick="scrollToTop()" class="top-button">Top</button>
+
+  <script>
+    // Scroll to top function
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Show/Hide top button based on scroll position
+    window.onscroll = function() {
+      const topButton = document.querySelector('.top-button');
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        topButton.style.display = "block";
+      } else {
+        topButton.style.display = "none";
       }
-    </script>
-  </body>
+    };
+  </script>
+</body>
 </html>

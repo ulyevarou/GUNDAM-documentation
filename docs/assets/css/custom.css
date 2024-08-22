@@ -64,31 +64,33 @@
 
 .header-title {
   cursor: pointer;
-  background-color: #157878;
-  color: white;
+  color: #157878; /* Text color aligned with Cayman theme */
   padding: 15px;
   font-family: 'Open Sans', sans-serif;
   border-radius: 3px;
   margin: 0;
   border: none;
   font-size: 1.5rem;
-  transition: background-color 0.3s ease;
+  transition: color 0.3s ease; /* Only transition text color */
 }
 
+/* Header content with Cayman-style border and padding */
 .header-content {
-  display: none;
+  display: none; /* Hidden by default */
   padding: 15px;
-  border-left: 4px solid #157878;
+  border-left: 4px solid #157878; /* Matching the primary Cayman color */
   background-color: #f9f9f9;
   margin-top: 5px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 
+/* Optional: hover effect, changing only the text color */
 .header-title:hover {
-  background-color: #0d5959;
+  color: #0d5959; /* Change only the text color on hover */
 }
 
+/* Arrow icon to indicate collapsibility */
 .header-title::after {
   content: "▼";
   float: right;
@@ -96,16 +98,19 @@
   font-size: 1rem;
 }
 
+/* Change arrow when content is expanded */
 .header-title.collapsed::after {
   content: "▲";
 }
 
+/* Smooth transition for the content */
 .header-content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
 }
 
+/* Show content when active */
 .header-content.show {
   max-height: 1000px;
 }

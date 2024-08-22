@@ -115,3 +115,10 @@
 .header-content.show {
   height: auto;        /* Height will be set dynamically via JavaScript */
 }
+
+.header-content {
+  max-height: 1000px !important;  /* Force it to be visible */
+  overflow: visible;
+  display: block !important;
+  visibility: visible !important;
+}

@@ -114,11 +114,3 @@
 .header-content.show {
   max-height: 1000px;
 }
-
-
-.header-content {
-  max-height: 1000px !important;  /* Force it to be visible */
-  overflow: visible;
-  display: block !important;
-  visibility: visible !important;
-}

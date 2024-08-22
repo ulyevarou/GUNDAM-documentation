@@ -4,7 +4,7 @@ title: Development policy
 next_page: "https://ulyevarou.github.io/GUNDAM-documentation/faq.html"
 ---
 
-#### Editing the code
+# Editing the code
 
 - The `main` branch is the official HEAD of GUNDAM.
 - Developers might make a [fork](https://github.com/gundam-organization/gundam/fork) of the `main` branch on their own GitHub account.
@@ -21,7 +21,7 @@ next_page: "https://ulyevarou.github.io/GUNDAM-documentation/faq.html"
 - Commit content must contain a few modifications to the code.
 
 
-#### Merging to the official repository
+# Merging to the official repository
 
 - First of all, create a dedicated entry on the [Issue tracking page](https://github.com/gundam-organization/gundam/issues).
 - Create a pull request (PR) of the branch from your fork into `main`.
@@ -29,7 +29,7 @@ next_page: "https://ulyevarou.github.io/GUNDAM-documentation/faq.html"
 - All the CI tests must be successful before merging.
 
 
-#### Licence and rights
+# Licence and rights
 
 - Usage of the forked code is regulated by the code license.
 - Share of the code is regulated by the code license.

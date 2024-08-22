@@ -4,9 +4,9 @@ title: Getting started
 next_page: "https://ulyevarou.github.io/GUNDAM-documentation/usage.html"
 ---
 
-## Installation instructions
+# Installation instructions
 
-### Prerequisites
+## Prerequisites
 
 There are several requirements for building the fitter:
 
@@ -20,7 +20,7 @@ There are several requirements for building the fitter:
 
 
 
-### Shell setup
+## Shell setup
 
 In this guide, it is assumed you have already defined the following bash environment
 variables:
@@ -53,7 +53,7 @@ mkdir -p $BUILD_DIR
 mkdir -p $REPO_DIR
 ```
 
-### Cloning the source code
+## Cloning the source code
 
 GUNDAM source code is officially available under the 
 [GUNDAM-organization on GitHub](https://github.com/gundam-organization/gundam).
@@ -88,7 +88,7 @@ included in the project. Therefore, in order to update your code when
 a new release is available, simply use the same command. Note that git versions 
 before 2.0 may have issues to checkout the correct submodules (see issue #429)
 
-### Building the code
+## Building the code
 
 ```bash
 cd $BUILD_DIR/gundam
@@ -99,7 +99,7 @@ $REPO_DIR/gundam/.
 make install -j$(nproc)
 ```
 
-### Add GUNDAM to the PATH
+## Add GUNDAM to the PATH
 
 ```bash
 export PATH="$INSTALL_DIR/gundam/bin:$PATH";
@@ -107,7 +107,7 @@ export LD_LIBRARY_PATH="$INSTALL_DIR/gundam/lib:$LD_LIBRARY_PATH";
 
 ```
 
-## Installation for:
+# Installation for:
 
 - [Compiling on macOS ](https://github.com/gundam-organization/gundam/blob/main/resources/doc/guides/installOnMacOs.md)
 - [Compiling on CCLyon ](https://github.com/gundam-organization/gundam/blob/main/resources/doc/guides/installOnCCLyon.md)
@@ -117,7 +117,7 @@ export LD_LIBRARY_PATH="$INSTALL_DIR/gundam/lib:$LD_LIBRARY_PATH";
 - Compiling on Cedar (Digital Research Alliance of Canada)
 - Compiling on NN SBU cluster (NN group of SBU)
 
-## Alternative installation procedure
+# Alternative installation procedure
 
 ```bash
 cd $REPO_DIR/gundam
@@ -127,4 +127,4 @@ cd cmake/scripts
 ```
 
 this will create the build directory `gundam-${compiler}_${compiler_version}-${compiler_machine}`.
-## Errors and warnings
+# Errors and warnings

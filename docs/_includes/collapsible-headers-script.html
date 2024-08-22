@@ -1,0 +1,21 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const headers = document.querySelectorAll('.header-title');
+
+    headers.forEach(header => {
+      header.addEventListener('click', function() {
+        const content = this.nextElementSibling;
+
+        // Toggle the "collapsed" class for the arrow
+        this.classList.toggle('collapsed');
+        
+        // Toggle the "show" class for the content
+        if (content.classList.contains('show')) {
+          content.classList.remove('show');
+        } else {
+          content.classList.add('show');
+        }
+      });
+    });
+  });
+</script>

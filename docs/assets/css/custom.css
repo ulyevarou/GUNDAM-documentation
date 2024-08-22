@@ -55,3 +55,57 @@
   background-color: #0d5959; /* Darker hover color */
   border-color: #0d5959;
 }
+
+
+/* Collapsible headers */
+.collapsible-header {
+  margin-bottom: 20px;
+}
+
+.header-title {
+  cursor: pointer;
+  background-color: #157878;
+  color: white;
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 3px;
+  margin: 0;
+  border: none;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.header-content {
+  display: none;
+  padding: 15px;
+  border-left: 4px solid #157878;
+  background-color: #f9f9f9;
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.header-title:hover {
+  background-color: #0d5959;
+}
+
+.header-title::after {
+  content: "▼";
+  float: right;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.header-title.collapsed::after {
+  content: "▲";
+}
+
+.header-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.header-content.show {
+  max-height: 1000px;
+}

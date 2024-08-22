@@ -107,6 +107,17 @@
 
 /* Smooth transition for the content */
 .header-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+/* Show content when active */
+.header-content.show {
+  max-height: 1000px;
+}
+
+.header-content {
   height: 0;           /* Initially collapsed */
   overflow: hidden;    /* Hide overflowing content */
   transition: height 0.3s ease-out;  /* Transition height smoothly */

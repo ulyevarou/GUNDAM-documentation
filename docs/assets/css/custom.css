@@ -74,55 +74,51 @@
   transition: color 0.3s ease; /* Only transition text color */
 }
 
-/* Header content with Cayman-style border and padding */
-.header-content {
-  display: none; /* Hidden by default */
-  padding: 15px;
-  border-left: 4px solid #157878; /* Matching the primary Cayman color */
-  background-color: #f9f9f9;
-  margin-top: 5px;
+/* Header title styling (Cayman theme style) */
+.header-title {
+  cursor: pointer;
+  color: #157878; /* Cayman primary color */
+  padding: 10px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
+  border-radius: 3px;
+  margin: 0;
+  border: none;
+  font-size: 1.5rem;
+  transition: color 0.3s ease; /* Optional color transition */
 }
 
-/* Optional: hover effect, changing only the text color */
+/* Optional hover effect for the header */
 .header-title:hover {
-  color: #0d5959; /* Change only the text color on hover */
+  color: #0d5959; /* Darker Cayman color on hover */
 }
 
-/* Arrow icon to indicate collapsibility */
+/* Arrow for the header title to indicate collapsibility */
 .header-title::after {
-  content: "▼";
+  content: "▼"; /* Down arrow */
   float: right;
   margin-left: 10px;
   font-size: 1rem;
 }
 
-/* Change arrow when content is expanded */
+/* Change arrow direction when content is expanded */
 .header-title.collapsed::after {
-  content: "▲";
+  content: "▲"; /* Up arrow */
 }
 
-
-
-/* Smooth transition for the content */
+/* Collapsible content container (initially collapsed) */
 .header-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
+  height: 0;              /* Height is initially 0 */
+  overflow: hidden;        /* Hide content that exceeds the height */
+  transition: height 0.3s ease-out; /* Smooth height transition */
+  padding: 0 15px;         /* Optional padding for content */
+  border-left: 4px solid #157878; /* Cayman-style border */
+  background-color: #f9f9f9; /* Light background for content area */
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 
-/* Show content when active */
-.header-content.show {
-  max-height: 1000px;
-}
-
-.header-content {
-  height: 0;           /* Initially collapsed */
-  overflow: hidden;    /* Hide overflowing content */
-  transition: height 0.3s ease-out;  /* Transition height smoothly */
-}
-
-.header-content.show {
-  height: auto;        /* Height will be set dynamically via JavaScript */
+/* Content within the collapsible section */
+.header-content p {
+  margin: 10px 0; /* Add margin to paragraphs within content */
 }

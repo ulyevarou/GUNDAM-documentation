@@ -9,6 +9,6 @@ title: GUNDAM — 風をあつめて
 - [How to install](GettingStarted.md)
 - [Run GUNDAM](usage.md)
 - [For developers](forDevelopers.md)
-- [FAQs and etc12.](faq.md)
+- [FAQs](faq.md)
 - [Lineage and Legacy](LineageandLegacy.md)
 - [Contact Us](appendix.md).

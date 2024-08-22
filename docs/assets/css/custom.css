@@ -103,14 +103,15 @@
   content: "▲";
 }
 
+
+
 /* Smooth transition for the content */
 .header-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
+  height: 0;           /* Initially collapsed */
+  overflow: hidden;    /* Hide overflowing content */
+  transition: height 0.3s ease-out;  /* Transition height smoothly */
 }
 
-/* Show content when active */
 .header-content.show {
-  max-height: 1000px;
+  height: auto;        /* Height will be set dynamically via JavaScript */
 }

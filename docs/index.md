@@ -11,4 +11,4 @@ title: GUNDAM — 風をあつめて
 - [For developers](forDevelopers.md)
 - [FAQs and etc12.](faq.md)
 - [Lineage and Legacy](LineageandLegacy.md)
-- [Appendix](appendix.md).
+- [Contact Us](appendix.md).

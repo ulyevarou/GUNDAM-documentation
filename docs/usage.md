@@ -22,7 +22,7 @@ There are several applications that can be run within GUNDAM. The primary purpos
 - <div class="collapsible-header">
     <h2 class="header-title">Run gundamCalcXsec</h2>
     <div class="header-content">
-    	{% include gundamCalcXsec.md %}
+    	include gundamCalcXsec.md
     </div>
   </div>
 

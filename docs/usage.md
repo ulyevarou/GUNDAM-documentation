@@ -9,7 +9,7 @@ next_page: "https://ulyevarou.github.io/GUNDAM-documentation/forDevelopers.html"
 There are several applications that can be run within GUNDAM. The primary purpose of GUNDAM is to perform fits to experimental or simulated data by varying sets of underlying model parameters using the `gundamFitter` application. Additionally, GUNDAM can be used for cross-section data analysis through the `gundamCalcXsec` application. There is also a set of additional applications with various goals.
 
 {% capture gundam_fitter_content %}
-  {% include_relative ./forDevelopers.md %}
+  {% include_relative forDevelopers.md %}
 {% endcapture %}
 
 - <div class="collapsible-header">
@@ -20,7 +20,7 @@ There are several applications that can be run within GUNDAM. The primary purpos
   </div>
 
 {% capture gundam_calc_content %}
-  {% include_relative ./forDevelopers.md %}
+  {% include_relative forDevelopers.md %}
 {% endcapture %}
 
 - <div class="collapsible-header">

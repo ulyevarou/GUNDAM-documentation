@@ -22,8 +22,18 @@ There are several applications that can be run within GUNDAM. The primary purpos
 - <div class="collapsible-header">
     <h2 class="header-title">Run gundamCalcXsec</h2>
     <div class="header-content">
-    	include gundamCalcXsec.md
-    </div>
+  		### Installation Instructions
+  
+  		#### Prerequisites
+  
+  		Here are the prerequisites for running gundamFitter:
+  
+  		- Item 1
+  		- Item 2
+  		- Item 3
+  
+  		You can add more content here, including text, images, or other Markdown elements.
+      </div>
   </div>
 
 - <div class="collapsible-header">

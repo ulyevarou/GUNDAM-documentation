@@ -66,8 +66,8 @@
 /* Header title styling (Cayman theme style) */
 .header-title {
   cursor: pointer;
-  color: #157878; /* Cayman primary color */
-  padding-left: 20px; /* Indent to match list style */
+  color: #0366d6; /* Cayman primary color #157878*/
+  padding-left: 10px; /* Indent to match list style */
   font-family: 'Open Sans', sans-serif;
   border-radius: 3px;
   margin: 0;
@@ -100,10 +100,9 @@
   height: 0; /* Height is initially 0 */
   overflow: hidden; /* Hide content that exceeds the height */
   transition: height 0.3s ease-out; /* Smooth height transition */
-  padding-left: 40px; /* Indent content to match sub-list style */
-  border-left: 4px solid #157878; /* Cayman-style border */
-  background-color: #f9f9f9; /* Light background for content area */
-  margin-top: 5px;
+  padding-left: 20px; /* Indent content to match sub-list style */ /*  background-color: #f9f9f9; /* Light background for content area */
+  border-left: 4px solid #157878; /* Cayman-style border border-left: 4px solid #157878;*/
+  margin-top: 1px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }

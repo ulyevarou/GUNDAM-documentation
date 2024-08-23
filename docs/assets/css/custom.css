@@ -67,7 +67,7 @@
 .header-title {
   cursor: pointer;
   color: #0366d6; /* Cayman primary color #157878*/
-  padding-left: 10px; /* Indent to match list style */
+  padding-left: 0px; /* Indent to match list style */
   font-family: 'Open Sans', sans-serif;
   border-radius: 3px;
   margin: 0;

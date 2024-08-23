@@ -12,6 +12,7 @@ There are several applications that can be run within GUNDAM. The primary purpos
     <h2 class="header-title">Run gundamFitter</h2>
   <div class="header-content">
     {% capture included_content %}
+    
     	{% include gundamFitter.md %}
     {% endcapture %}
     {{ included_content | markdownify }}

@@ -59,7 +59,7 @@
 /* Collapsible headers */
 .collapsible-header {
   list-style: none; /* Remove default bullet points */
-  margin: 0 0 10px 0; /* Reduce margin-bottom for spacing between collapsible headers */
+  margin: 0 0 1px 0; /* Reduce margin-bottom for spacing between collapsible headers */
   padding: 0; /* Ensure consistent padding */
 }
 
@@ -72,7 +72,7 @@
   border-radius: 3px;
   margin: 0; /* Remove margins for more compact headers */
   border: none;
-  font-size: 1rem; /* Font size consistent with list item text */
+  font-size: 2rem; /* Font size consistent with list item text */
   transition: color 0.3s ease; /* Optional color transition */
   text-decoration: none; /* Remove any default link decoration */
 }

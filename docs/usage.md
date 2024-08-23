@@ -11,33 +11,15 @@ There are several applications that can be run within GUNDAM. The primary purpos
 - <div class="collapsible-header">
     <h2 class="header-title">Run gundamFitter</h2>
   <div class="header-content">
-    {% capture included_content %}
-    	[link](./applications/gundamFitPlot.md)
-    	{% include gundamFitter.md %}
-    {% endcapture %}
-    {{ included_content | markdownify }}
+    {% include_relative _includes/gundamFitter.md %}
   </div>
   </div>
 
 - <div class="collapsible-header">
     <h2 class="header-title">Run gundamCalcXsec</h2>
     <div class="header-content">
-    {% capture content %}
-  		### Installation Instructions
-  
-  		#### Prerequisites
-  
-  		Here are the prerequisites for running gundamFitter:
-  
-  		- Item 1
-  		- Item 2
-  		- Item 3
-  
-  		You can add more content here, including text, images, or other Markdown elements.
-     {% endcapture %}
-    
-    {{ content | markdownify }}
-      </div>
+    {% include_relative _includes/gundamCalcXsec.md %}
+    </div>
   </div>
 
 - <div class="collapsible-header">

@@ -122,3 +122,30 @@
 .header-content p {
   margin: 10px 0; /* Add margin to paragraphs within content */
 }
+
+/* Ensure the collapsible header looks like a list item */
+.collapsible-header {
+  list-style: none; /* Remove default bullet points */
+  margin: 0; /* Ensure consistent spacing */
+  padding: 0; /* Ensure consistent padding */
+}
+
+/* Collapsible header title should resemble a list item */
+.header-title {
+  cursor: pointer;
+  font-size: 1rem; /* Adjust font size to match list item text */
+  color: #157878; /* Same color as list links */
+  padding-left: 20px; /* Indent to match list style */
+  text-decoration: none; /* Remove any default link decoration */
+  margin: 0; /* Remove margin to match list items */
+}
+
+/* Collapsible content should also match the list style */
+.header-content {
+  padding-left: 40px; /* Indent content to match sub-list style */
+  display: none; /* Hidden by default */
+}
+
+.header-title.collapsed + .header-content {
+  display: block; /* Show content when collapsed class is added */
+}

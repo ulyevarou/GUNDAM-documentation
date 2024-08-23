@@ -10,9 +10,12 @@ There are several applications that can be run within GUNDAM. The primary purpos
 
 - <div class="collapsible-header">
     <h2 class="header-title">Run gundamFitter</h2>
-    <div class="header-content">
+  <div class="header-content">
+    {% capture included_content %}
     	{% include gundamFitter.md %}
-    </div>
+    {% endcapture %}
+    {{ included_content | markdownify }}
+  </div>
   </div>
 
 - <div class="collapsible-header">

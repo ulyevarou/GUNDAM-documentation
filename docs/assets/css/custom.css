@@ -59,27 +59,27 @@
 /* Collapsible headers */
 .collapsible-header {
   list-style: none; /* Remove default bullet points */
-  margin: 0 0 20px 0; /* Add margin-bottom for spacing between collapsible headers */
+  margin: 0 0 10px 0; /* Reduce margin-bottom for spacing between collapsible headers */
   padding: 0; /* Ensure consistent padding */
 }
 
 /* Header title styling (Cayman theme style) */
 .header-title {
   cursor: pointer;
-  color: #0366d6; /* Cayman primary color #157878*/
-  padding-left: 0px; /* Indent to match list style */
+  color: #0366d6; /* Primary color for links */
+  padding-left: 0; /* Remove padding for a cleaner look */
   font-family: 'Open Sans', sans-serif;
   border-radius: 3px;
-  margin: 0;
+  margin: 0; /* Remove margins for more compact headers */
   border: none;
-  font-size: 1rem; /* Adjust font size to match list item text */
+  font-size: 1rem; /* Font size consistent with list item text */
   transition: color 0.3s ease; /* Optional color transition */
   text-decoration: none; /* Remove any default link decoration */
 }
 
 /* Optional hover effect for the header */
 .header-title:hover {
-  color: #0d5959; /* Darker Cayman color on hover */
+  color: #0d5959; /* Darker hover color */
 }
 
 /* Arrow for the header title to indicate collapsibility */
@@ -97,22 +97,22 @@
 
 /* Collapsible content container (initially collapsed) */
 .header-content {
-  height: 0; /* Height is initially 0 */
-  overflow: hidden; /* Hide content that exceeds the height */
+  height: 0; /* Initially collapsed */
+  overflow: hidden; /* Hide overflowing content */
   transition: height 0.3s ease-out; /* Smooth height transition */
-  padding-left: 20px; /* Indent content to match sub-list style */ /*  background-color: #f9f9f9; /* Light background for content area */
-  border-left: 4px solid #157878; /* Cayman-style border border-left: 4px solid #157878;*/
-  margin-top: 1px;
+  padding-left: 20px; /* Indent content to match sub-list style */
+  border-left: 4px solid #157878; /* Left border for style */
+  margin: 5px 0; /* Adjust margin to control spacing between sections */
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 
 /* Content within the collapsible section */
 .header-content p {
-  margin: 10px 0; /* Add margin to paragraphs within content */
+  margin: 5px 0; /* Reduce paragraph margin for more compact content */
 }
 
 /* Show content when collapsed class is added */
 .header-title.collapsed + .header-content {
-  height: auto; /* Allow the height to expand when showing content */
+  height: auto; /* Allow height to expand when showing content */
 }

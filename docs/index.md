@@ -9,7 +9,7 @@ title: GUNDAM — 風をあつめて
 - [How to install](GettingStarted.md)
 - [Run GUNDAM](usage.md)
 - <div class="collapsible-header">
-    <h2 class="header-title">Run GUNDAM</h2>
+    <h2 class="header-title">Run GUNDAM
     <div class="header-content">
       <ul>
         <li><a href="usage.md">Run fitter</a></li>

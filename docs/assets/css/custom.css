@@ -56,31 +56,6 @@
   border-color: #0d5959;
 }
 
-/* Collapsible headers */
-.collapsible-header {
-  list-style: none; /* Remove default bullet points */
-  margin: 0 0 0px 0; /* Reduce margin-bottom for spacing between collapsible headers */
-  padding: 0; /* Ensure consistent padding */
-}
-
-/* Header title styling (Cayman theme style) */
-.header-title {
-  cursor: pointer;
-  color: #0366d6; /* Primary color for links */
-  padding-left: 0; /* Remove padding for a cleaner look */
-  font-family: 'Open Sans', sans-serif;
-  border-radius: 1px;
-  margin: 0; /* Remove margins for more compact headers */
-  border: none;
-  font-size: 1.5rem; /* Font size consistent with list item text */
-  transition: color 0.3s ease; /* Optional color transition */
-  text-decoration: none; /* Remove any default link decoration */
-}
-
-/* Optional hover effect for the header */
-.header-title:hover {
-  color: #0d5959; /* Darker hover color */
-}
 
 /* Arrow for the header title to indicate collapsibility */
 .header-title::after {
@@ -95,17 +70,6 @@
   content: "▲"; /* Up arrow */
 }
 
-/* Collapsible content container (initially collapsed) */
-.header-content {
-  height: 0; /* Initially collapsed */
-  overflow: hidden; /* Hide overflowing content */
-  transition: height 0.3s ease-out; /* Smooth height transition */
-  padding-left: 20px; /* Indent content to match sub-list style */
-  border-left: 4px solid #157878; /* Left border for style */
-  margin: 5px 0; /* Adjust margin to control spacing between sections */
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-}
 
 .collapsible-header {
   cursor: pointer;

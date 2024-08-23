@@ -22,6 +22,7 @@ There are several applications that can be run within GUNDAM. The primary purpos
 - <div class="collapsible-header">
     <h2 class="header-title">Run gundamCalcXsec</h2>
     <div class="header-content">
+    {% capture content %}
   		### Installation Instructions
   
   		#### Prerequisites
@@ -33,6 +34,9 @@ There are several applications that can be run within GUNDAM. The primary purpos
   		- Item 3
   
   		You can add more content here, including text, images, or other Markdown elements.
+     {% endcapture %}
+    
+    {{ content | markdownify }}
       </div>
   </div>
 

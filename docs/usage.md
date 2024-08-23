@@ -31,11 +31,11 @@ There are several applications that can be run within GUNDAM. The primary purpos
       <ul>
         <li><a href="https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamConfigCompare.md">gundamConfigCompare</a></li>
         <li><a href="https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamConfigUnfolder.md">gundamConfigUnfolder</a></li>
-        <li><a href="./gundamFitPlot.md">gundamFitPlot</a></li>
-        <li><a href="./gundamFitReader.md">gundamFitReader</a></li>
-        <li><a href="./gundamInputZipper.md">gundamInputZipper</a></li>
-        <li><a href="./gundamPlotExtractor.md">gundamPlotExtractor</a></li>
-        <li><a href="./gundamRoot.md">gundamRoot</a></li>
+        <li><a href="./applications/gundamFitPlot.md">gundamFitPlot</a></li>
+        <li><a href="./applications/gundamFitReader.md">gundamFitReader</a></li>
+        <li><a href="./applications/gundamInputZipper.md">gundamInputZipper</a></li>
+        <li><a href="./applications/gundamPlotExtractor.md">gundamPlotExtractor</a></li>
+        <li><a href="./applications/gundamRoot.md">gundamRoot</a></li>
 
       </ul>
     </div>

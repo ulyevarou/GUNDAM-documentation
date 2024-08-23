@@ -11,14 +11,14 @@ There are several applications that can be run within GUNDAM. The primary purpos
 - <div class="collapsible-header">
     <h2 class="header-title">Run gundamFitter</h2>
     <div class="header-content">
-    	{% include index.md %}
+    	{% include GettingStarted.md %}
     </div>
   </div>
 
 - <div class="collapsible-header">
     <h2 class="header-title">Run gundamCalcXsec</h2>
     <div class="header-content">
-    	{% include index.md %}
+    	{% include GettingStarted.md %}
     </div>
   </div>
 

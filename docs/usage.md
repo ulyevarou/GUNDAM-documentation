@@ -37,11 +37,3 @@ There are several applications that can be run within GUNDAM. The primary purpos
       </ul>
     </div>
   </div>
-
- <div class="collapsible-header">
-  <h2 class="header-title">Section 1</h2>
-  <div class="header-content">
-    <p>This is the content for Section 1. It will be shown or hidden when the header is clicked.</p>
-    <p>You can add any content here, including text, images, or other HTML elements.</p>
-  </div>
-</div>

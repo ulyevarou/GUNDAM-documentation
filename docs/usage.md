@@ -12,7 +12,7 @@ There are several applications that can be run within GUNDAM. The primary purpos
 
 - [Run gundamCalcXsec](applications/gundamCalcXsec.md)
 
-- [Other GUNDAM applications]
+- Other GUNDAM applications
 
   - [gundamConfigCompare](applications/gundamConfigCompare.md)
   - [gundamConfigUnfolder](applications/gundamConfigUnfolder.md)

@@ -56,6 +56,18 @@
   border-color: #0d5959;
 }
 
+/* Arrow for the header title to indicate collapsibility */
+.header-title::after {
+  content: "▼"; /* Down arrow */
+  float: right;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+/* Change arrow direction when content is expanded */
+.header-title.collapsed::after {
+  content: "▲"; /* Up arrow */
+}
 
 /* Collapsible headers */
 .collapsible-header {

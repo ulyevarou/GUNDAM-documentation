@@ -21,3 +21,4 @@ various physics works, it allows to share optimizations
 and debugging for every project at once.
 
 # Version information
+<div id="releases"></div>

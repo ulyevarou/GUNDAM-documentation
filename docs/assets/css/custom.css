@@ -103,7 +103,6 @@
   overflow: hidden; /* Hide overflowing content */
   transition: height 0.3s ease-out; /* Smooth height transition */
   padding-left: 20px; /* Indent content to match sub-list style */
-  border-left: 4px solid #157878; /* Left border for style */
   margin: 5px 0; /* Adjust margin for spacing */
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem; /* Increase font size for the content */

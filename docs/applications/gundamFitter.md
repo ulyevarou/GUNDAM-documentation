@@ -1,5 +1,8 @@
-## gundamFitter
-[< back to parent (GettingStarted)](../GettingStarted.md)
+---
+layout: default
+title: gundamFitter
+---
+
 ### Description
 
 The `gundamFitter` app is an interface to the `FitterEngine` which is in charge

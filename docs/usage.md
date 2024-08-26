@@ -10,12 +10,12 @@ There are several applications that can be run within GUNDAM. The primary purpos
 
 ### Run gundamFitter
 <div class="collapsible-content">
-  {% include_relative docs/gundamFitter.md %}
+  {% include_relative applications/gundamFitter.md %}
 </div>
 
 ### Run gundamCalcXsec
 <div class="collapsible-content">
-  {% include_relative docs/gundamCalcXsec.md %}
+  {% include_relative applications/gundamCalcXsec.md %}
 </div>
 
 - <div class="collapsible-header">

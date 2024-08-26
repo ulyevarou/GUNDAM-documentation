@@ -56,23 +56,32 @@
   border-color: #0d5959;
 }
 
-.collapsible-content {
-  display: none; /* Hide collapsible content by default */
-  margin-top: 10px;
-  padding-left: 20px;
-  border-left: 4px solid #157878; /* Optional styling */
+
+/* Arrow for the header title to indicate collapsibility */
+.header-title::after {
+  content: "▼"; /* Down arrow */
+  float: right;
+  margin-left: 10px;
+  font-size: 1rem;
 }
 
-h3 {
+/* Change arrow direction when content is expanded */
+.header-title.collapsed::after {
+  content: "▲"; /* Up arrow */
+}
+
+
+.collapsible-header {
   cursor: pointer;
-  color: #0366d6; /* Change the color as needed */
+  margin-bottom: 10px;
 }
 
-h3 + * {
-  display: none; /* Hide the content by default */
-  padding-left: 20px;
-  margin-top: 10px;
+.header-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
 }
 
-h3.active + * {
-  display: block; /* Show the content when active */
+.header-title.collapsed + .header-content {
+  height: auto;
+}

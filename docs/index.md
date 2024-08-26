@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GUNDAM — 風をあつめて 
+title: GUNDAM
 ---
 
 # Welcome to GUNDAM User Guide

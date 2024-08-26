@@ -12,17 +12,12 @@ There are several applications that can be run within GUNDAM. The primary purpos
 
 - [Run gundamCalcXsec](applications/gundamCalcXsec.md)
 
-- <div class="collapsible-header">
-    <div class="header-title">Other GUNDAM applications</div>
-    <div class="header-content">
-      <ul>
-        <li><a href="{{ site.baseurl }}/applications/gundamConfigCompare/">gundamConfigCompare</a></li>
-        <li><a href="{{ site.baseurl }}/applications/gundamConfigUnfolder/">gundamConfigUnfolder</a></li>
-        <li><a href="{{ site.baseurl }}/applications/gundamFitPlot/">gundamFitPlot</a></li>
-        <li><a href="{{ site.baseurl }}/applications/gundamFitReader/">gundamFitReader</a></li>
-        <li><a href="{{ site.baseurl }}/applications/gundamInputZipper/">gundamInputZipper</a></li>
-        <li><a href="{{ site.baseurl }}/applications/gundamPlotExtractor/">gundamPlotExtractor</a></li>
-        <li><a href="{{ site.baseurl }}/applications/gundamRoot/">gundamRoot</a></li>
-      </ul>
-    </div>
-  </div>
+- [Other GUNDAM applications]
+
+  - [gundamConfigCompare](applications/gundamConfigCompare.md)
+  - [gundamConfigUnfolder](applications/gundamConfigUnfolder.md)
+  - [gundamFitPlot](applications/gundamFitPlot.md)
+  - [gundamFitReader](applications/gundamFitReader.md)
+  - [gundamInputZipper](applications/gundamInputZipper.md)
+  - [gundamPlotExtractor](applications/gundamPlotExtractor.md)
+  - [gundamRoot](applications/gundamRoot.md)

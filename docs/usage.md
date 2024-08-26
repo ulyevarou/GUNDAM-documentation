@@ -13,7 +13,7 @@ There are several applications that can be run within GUNDAM. The primary purpos
 - [Run gundamCalcXsec](applications/gundamCalcXsec.md)
 
 - <div class="collapsible-header">
-    <h3 class="header-title">Other GUNDAM applications</h3>
+    <div class="header-title">Other GUNDAM applications</div>
     <div class="header-content">
       <ul>
         <li><a href="https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamConfigCompare.md">gundamConfigCompare</a></li>

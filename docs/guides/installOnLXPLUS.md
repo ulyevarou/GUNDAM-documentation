@@ -1,4 +1,4 @@
-[![](./resources/guides/images/lxplusLogo.png)]
+[![](./guides/images/lxplusLogo.png)]
 
 This is a rough guide to get going on lxplus. GUNDAM has pretty modern dependencies so we’ll need to pick these up from what we can find on cvmfs etc. It turns out the ROOT v.18/04 we often use (the one inside the LArSoft cvmfs) is too old but we can use Adrien’s 6.26/10. 
 

@@ -16,13 +16,13 @@ There are several applications that can be run within GUNDAM. The primary purpos
     <div class="header-title">Other GUNDAM applications</div>
     <div class="header-content">
       <ul>
-        <li><a href="/GUNDAM-documentation/applications/gundamConfigCompare/">gundamConfigCompare</a></li>
-        <li><a href="/GUNDAM-documentation/applications/gundamConfigUnfolder/">gundamConfigUnfolder</a></li>
-        <li><a href="/GUNDAM-documentation/applications/gundamFitPlot/">gundamFitPlot</a></li>
-        <li><a href="/GUNDAM-documentation/applications/gundamFitReader/">gundamFitReader</a></li>
-        <li><a href="/GUNDAM-documentation/applications/gundamInputZipper/">gundamInputZipper</a></li>
-        <li><a href="/GUNDAM-documentation/applications/gundamPlotExtractor/">gundamPlotExtractor</a></li>
-        <li><a href="/GUNDAM-documentation/applications/gundamRoot/">gundamRoot</a></li>
+        <li><a href="{{ site.baseurl }}/applications/gundamConfigCompare/">gundamConfigCompare</a></li>
+        <li><a href="{{ site.baseurl }}/applications/gundamConfigUnfolder/">gundamConfigUnfolder</a></li>
+        <li><a href="{{ site.baseurl }}/applications/gundamFitPlot/">gundamFitPlot</a></li>
+        <li><a href="{{ site.baseurl }}/applications/gundamFitReader/">gundamFitReader</a></li>
+        <li><a href="{{ site.baseurl }}/applications/gundamInputZipper/">gundamInputZipper</a></li>
+        <li><a href="{{ site.baseurl }}/applications/gundamPlotExtractor/">gundamPlotExtractor</a></li>
+        <li><a href="{{ site.baseurl }}/applications/gundamRoot/">gundamRoot</a></li>
       </ul>
     </div>
   </div>

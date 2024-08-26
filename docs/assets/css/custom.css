@@ -57,46 +57,31 @@
 }
 
 
-/* Collapsible headers */
+/* Arrow for the header title to indicate collapsibility */
+.header-title::after {
+  content: "▼"; /* Down arrow */
+  float: right;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+/* Change arrow direction when content is expanded */
+.header-title.collapsed::after {
+  content: "▲"; /* Up arrow */
+}
+
+
 .collapsible-header {
-  list-style: none; /* Remove default bullet points */
-  margin: 0 0 10px 0; /* Adjust margin for spacing between collapsible headers */
-  padding: 0; /* Ensure consistent padding */
-}
-
-/* Header title styling with larger font */
-.header-title {
   cursor: pointer;
-  color: #0366d6; /* Primary color for links */
-  padding-left: 0; /* Remove padding for a cleaner look */
-  font-family: 'Open Sans', sans-serif;
-  border-radius: 3px;
-  margin: 0; /* Remove margins for compact headers */
-  border: none;
-  font-size: 1.5rem; /* Increase font size for the header */
-  transition: color 0.3s ease; /* Optional color transition */
-  text-decoration: none; /* Remove any default link decoration */
+  margin-bottom: 10px;
 }
 
-/* Optional hover effect for the header */
-.header-title:hover {
-  color: #0d5959; /* Darker hover color */
-}
-
-/* Collapsible content container with larger font */
 .header-content {
-  height: 0; /* Initially collapsed */
-  overflow: hidden; /* Hide overflowing content */
-  transition: height 0.3s ease-out; /* Smooth height transition */
-  padding-left: 20px; /* Indent content to match sub-list style */
-  border-left: 4px solid #157878; /* Left border for style */
-  margin: 5px 0; /* Adjust margin for spacing */
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem; /* Increase font size for the content */
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
 }
 
-/* Content within the collapsible section with larger font */
-.header-content p {
-  margin: 5px 0; /* Adjust margin for paragraphs */
-  font-size: 1.2rem; /* Larger font size for paragraphs inside collapsible content */
+.header-title.collapsed + .header-content {
+  height: auto;
 }

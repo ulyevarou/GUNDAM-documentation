@@ -16,13 +16,13 @@ There are several applications that can be run within GUNDAM. The primary purpos
     <div class="header-title">Other GUNDAM applications</div>
     <div class="header-content">
       <ul>
-        <li><a href="applications/gundamConfigCompare.md">gundamConfigCompare</a></li>
-        <li><a href="applications/gundamConfigUnfolder.md">gundamConfigUnfolder</a></li>
-        <li><a href="applications/gundamFitPlot.md">gundamFitPlot</a></li>
-        <li><a href="applications/gundamFitReader.md">gundamFitReader</a></li>
-        <li><a href="applications/gundamInputZipper.md">gundamInputZipper</a></li>
-        <li><a href="applications/gundamPlotExtractor.md">gundamPlotExtractor</a></li>
-        <li><a href="applications/gundamRoot.md">gundamRoot</a></li>
+        <li><a href="https://ulyevarou.github.io/GUNDAM-documentation/applications/gundamConfigCompare.md">gundamConfigCompare</a></li>
+        <li><a href="https://ulyevarou.github.io/GUNDAM-documentation/applications/gundamConfigUnfolder.md">gundamConfigUnfolder</a></li>
+        <li><a href="https://ulyevarou.github.io/GUNDAM-documentation/applications/gundamFitPlot.md">gundamFitPlot</a></li>
+        <li><a href="https://ulyevarou.github.io/GUNDAM-documentation/applications/gundamFitReader.md">gundamFitReader</a></li>
+        <li><a href="https://ulyevarou.github.io/GUNDAM-documentation/applications/gundamInputZipper.md">gundamInputZipper</a></li>
+        <li><a href="https://ulyevarou.github.io/GUNDAM-documentation/applications/gundamPlotExtractor.md">gundamPlotExtractor</a></li>
+        <li><a href="https://ulyevarou.github.io/GUNDAM-documentation/applications/gundamRoot.md">gundamRoot</a></li>
 
       </ul>
     </div>

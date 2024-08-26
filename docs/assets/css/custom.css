@@ -62,11 +62,13 @@
   float: right;
   margin-left: 10px;
   font-size: 1rem;
+  color: #0d5959; /* Primary color for links */
 }
 
 /* Change arrow direction when content is expanded */
 .header-title.collapsed::after {
   content: "▲"; /* Up arrow */
+  color: #0d5959; /* Primary color for links */
 }
 
 /* Collapsible headers */

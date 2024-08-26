@@ -112,8 +112,8 @@ export LD_LIBRARY_PATH="$INSTALL_DIR/gundam/lib:$LD_LIBRARY_PATH";
 - [Compiling on macOS ](guides/installOnMacOs.md)
 - [Compiling on CCLyon ](guides/installOnCCLyon.md)
 - [Compiling on HPC cluster (University of Geneva)](guides/installOnHpc.md)
-- Compiling on HPC cluster (Stony Brook University)
 - [Compiling on LXPLUS](guides/installOnLXPLUS.md)
+- Compiling on HPC cluster (Stony Brook University)
 - Compiling on Cedar (Digital Research Alliance of Canada)
 - Compiling on NN SBU cluster (NN group of SBU)
 

@@ -8,10 +8,20 @@ next_page: "https://ulyevarou.github.io/GUNDAM-documentation/forDevelopers.html"
 
 There are several applications that can be run within GUNDAM. The primary purpose of GUNDAM is to perform fits to experimental or simulated data by varying sets of underlying model parameters using the `gundamFitter` application. Additionally, GUNDAM can be used for cross-section data analysis through the `gundamCalcXsec` application. There is also a set of additional applications with various goals.
 
-### - [Run gundamFitter](applications/gundamFitter.md)
+- [Run gundamFitter](applications/gundamFitter.md)
 
-### - [Run gundamCalcXsec](applications/gundamCalcXsec.md)
+- [Run gundamCalcXsec](applications/gundamCalcXsec.md)
 
+- [Other GUNDAM applications]
+
+  - [gundamConfigCompare](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamConfigCompare.md)
+  - [gundamConfigUnfolder](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamConfigUnfolder.md)
+  - [gundamFitPlot](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamFitPlot.md)
+  - [gundamFitReader](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamFitReader.md)
+  - [gundamInputZipper](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamInputZipper.md)
+  - [gundamPlotExtractor](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamPlotExtractor.md)
+  - [gundamRoot](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamRoot.md)
+  
 - <div class="collapsible-header">
     <h3 class="header-title">Other GUNDAM applications</h3>
     <div class="header-content">

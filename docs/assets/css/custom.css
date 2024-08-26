@@ -87,7 +87,7 @@
   border-radius: 3px;
   margin: 0; /* Remove margins for compact headers */
   border: none;
-  font-size: 1.2rem; /* Increase font size for the header */
+  font-size: 1.1rem; /* Increase font size for the header */
   transition: color 0.3s ease; /* Optional color transition */
   text-decoration: none; /* Remove any default link decoration */
 }
@@ -106,11 +106,11 @@
   border-left: 4px solid #157878; /* Left border for style */
   margin: 5px 0; /* Adjust margin for spacing */
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem; /* Increase font size for the content */
+  font-size: 1rem; /* Increase font size for the content */
 }
 
 /* Content within the collapsible section with larger font */
 .header-content p {
   margin: 5px 0; /* Adjust margin for paragraphs */
-  font-size: 1.2rem; /* Larger font size for paragraphs inside collapsible content */
+  font-size: 1rem; /* Larger font size for paragraphs inside collapsible content */
 }

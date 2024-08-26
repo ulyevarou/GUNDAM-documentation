@@ -3,11 +3,11 @@ layout: default
 title: gundamCalcXsec
 ---
 
-### Description 
+### Description
 
 The `gundamCalcXsec` app is an interface to the `FitterEngine` which is in charge of performing a Cross Section calculation by taking the output of `gundamFitter` as input. 
 
-## Usage
+### Usage
 
 Similarly to [gundamFitter](gundamFitter.md), `gundamCalcXsec` takes a config file as input with `-c` but in addition it also takes the output of `gundamFitter` as an input with the `-f` argument.
 ```bash

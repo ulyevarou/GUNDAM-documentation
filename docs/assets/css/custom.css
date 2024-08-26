@@ -61,7 +61,8 @@
 .collapsible-header {
   list-style: none; /* Remove default bullet points */
   margin: 0 0 10px 0; /* Adjust margin for spacing between collapsible headers */
-  padding: 0; /* Ensure consistent padding */
+  padding: 0; /* Ensure consistent padding */  
+  color: #0366d6; /* Primary color for links */
 }
 
 /* Header title styling with larger font */
@@ -73,14 +74,14 @@
   border-radius: 3px;
   margin: 0; /* Remove margins for compact headers */
   border: none;
-  font-size: 1rem; /* Increase font size for the header */
+  font-size: 1.2rem; /* Increase font size for the header */
   transition: color 0.3s ease; /* Optional color transition */
   text-decoration: none; /* Remove any default link decoration */
 }
 
 /* Optional hover effect for the header */
 .header-title:hover {
-  color: #0366d6; /* Darker hover color */
+  color: #0d5959; /* Darker hover color */
 }
 
 /* Collapsible content container with larger font */

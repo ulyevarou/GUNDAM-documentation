@@ -12,16 +12,6 @@ There are several applications that can be run within GUNDAM. The primary purpos
 
 - [Run gundamCalcXsec](applications/gundamCalcXsec.md)
 
-- [Other GUNDAM applications]
-
-  - [gundamConfigCompare](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamConfigCompare.md)
-  - [gundamConfigUnfolder](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamConfigUnfolder.md)
-  - [gundamFitPlot](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamFitPlot.md)
-  - [gundamFitReader](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamFitReader.md)
-  - [gundamInputZipper](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamInputZipper.md)
-  - [gundamPlotExtractor](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamPlotExtractor.md)
-  - [gundamRoot](https://github.com/gundam-organization/gundam/blob/main/resources/doc/applications/gundamRoot.md)
-  
 - <div class="collapsible-header">
     <h3 class="header-title">Other GUNDAM applications</h3>
     <div class="header-content">

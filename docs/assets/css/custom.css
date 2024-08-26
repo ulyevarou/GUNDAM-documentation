@@ -74,7 +74,6 @@
   list-style: none; /* Remove default bullet points */
   margin: 0 0 10px 0; /* Adjust margin for spacing between collapsible headers */
   padding: 0; /* Ensure consistent padding */  
-  color: #0366d6; /* Primary color for links */
 }
 
 /* Header title styling with larger font */
@@ -93,7 +92,7 @@
 
 /* Optional hover effect for the header */
 .header-title:hover {
-  color: #0d5959; /* Darker hover color */
+  color: #0366d6; /* Darker hover color */
 }
 
 /* Collapsible content container with larger font */
